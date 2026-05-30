@@ -7,4 +7,6 @@ Pop - Remove o stash mais recente da pilha e aplica as mudanças que ele contém
 Permite o teste de novas funcionalidades sem quebrar o branch principal
 
 3 – Nos Merges de conteúdos resultantes de um “Pop” podem resultar em conflitos. Em que consistem e como podem ser resolvidos esses conflitos?
+Um conflito ocorre quando o Git deteta várias alterações feitas para a mesma linha do mesmo ficheiro de forma diferente. A resolução envolve escolher qual bloco manter, apagar as marcações e fazer um novo commit.
+
 4 – “Clone” e “Fork” são formas diferentes de replicar um repositório Git. Quais as diferenças entre eles?
